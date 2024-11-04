@@ -32,8 +32,6 @@ header {
 }
 h1{
     font-size: 3rem;
-    color: blue; /*убрать*/
-    text-decoration: overline; /*убрать*/
     text-transform: capitalize;
     font-style: italic;
 }
@@ -44,7 +42,6 @@ h2{
     text-decoration: underline;
     margin-top: 10px;
     line-height: 2rem;
-    color: brown; /*убрать*/
     }
 li{
     font-size: 1.25rem;
@@ -53,12 +50,7 @@ p{
     font-size: 1.25rem;
     line-height: 2rem;
     text-align: justify;
-    font-family: Cambria, serif; /*убрать*/
     color: black;
-}
-p::first-line
-{
-    letter-spacing: 1.5rem;
 }
 .info p+figure{
     border: red solid;
@@ -89,7 +81,6 @@ p::first-line
 }
 
 .page-list li:nth-child(odd){
-    background-color: rosybrown; /*убрать!*/
 }
 .quoted, .quoted p{
     text-align: right;
@@ -197,24 +188,6 @@ p::first-line
 #topic{
     background-color: #eddfff;
     border: white solid 1px;
-}
-a:focus{ /*убрать!*/
-    color: blue;
-}
-a:hover{ /*убрать!*/
-    color: green; 
-    text-decoration: underline;
-}
-p:lang(en){ /*убрать*/
-    font-style: oblique;
-    color: chocolate;
-}
-.page-list::before{ /*убрать*/
-    content: "Важно!";
-    font-size: 50px;
-    color: red;
-    border-style: dotted;
-    background-color: burlywood;
 }
 /*
 .info>a {
