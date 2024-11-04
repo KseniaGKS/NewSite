@@ -112,9 +112,6 @@ p{
     color: aqua;
     letter-spacing: 1.5rem;
 }
-.intro p{
-    background-color: aquamarine;
-}
 #child, #adult, #married{
     text-align: center;
     padding-top: 10px;
