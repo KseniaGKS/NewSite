@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Playfair Display", serif;
+    font-size: 0.8em; /*1rem = 1.2em*/
+}
+body {
+    background-color: beige;
+    /*border: 5px black solid;
+    font-style: italic;*/
+}
+dl{
+    font-size: 1.25rem;
+}
+figcaption
+{
+    margin-bottom: 20px;
+}
+footer {
+    background-color: beige;
+    padding: 10px 50px;
+}
+footer img{
+    border-style: groove;
+}
+header {
+    background-color: beige;
+    text-align: center;
+    padding: 20px 0;
+}
+h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-style: italic;
+}
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 10px;
+    line-height: 2rem;
+    }
+li{
+    font-size: 1.25rem;
+}
+p{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    text-align: justify;
+    color: black;
+}
+.avatar {
+    display: block;
+    margin: 0 auto;
+}
+.info, .content {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.intro {
+    background-color: beige;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+}
+.page-next{
+    font-size: 1.25rem;
+    text-align:right;
+    padding-right: 50px;
+}
+.page-before{
+    font-size: 1.25rem;
+    text-align:left;
+    padding-left: 50px;
+}
+.quoted, .quoted p{
+    text-align: right;
+    font-size: 1.25rem;
+}
+.table-example{
+    border: 1px black solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+.table-example td, .table-example th{
+    border: black 1px solid; /*border-bottom:*/
+    padding: 10px 20px;
+    width: 100px;
+}
+.table-example td:nth-child(2){ /*для оформления конкретного столбца*/
+    color: blue;
+    font-weight: bold;
+}
+.table-example tr:nth-child(4){ /*для оформления конкретного столбца*/
+    color: blue;
+    font-weight: bold;
+}
+.table-example tr:nth-child(even) td{
+    background-color: burlywood;
+}
+.content p:first-child{
+    color: aqua;
+    letter-spacing: 1.5rem;
+}
+#child, #adult, #married{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#client-text{
+    background-color: #eddfff;
+    border: white solid 1px;
+    width: 260px;
+    height: 100px;
+}
+#contact-form{
+    width: 300px;
+    margin: 20px auto;
+}
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="date"], #contact-form input[type="tel"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form select{
+    height: 31px;
+    width: 262px;
+}
+#contact-form input[type="submit"]{
+    background-color: #eddfff;
+    border: white solid 1px;
+    width: 100px;
+    height: 30px;
+    font-style: italic;
+    font-variant-caps: all-petite-caps;
+}
+#contact-form input[type="submit"]:hover{
+    background-color: #e1caff;
+}
+#form-example{
+    width: 300px;
+    margin: 20px auto;
+}
+#form-example input[type='submit']{
+    background-color: lavender;
+    border: 1px darkblue solid;
+    padding: 7px 15px;
+    color: darkblue;
+    border-radius: 5px;
+}
+#form-example input[type='submit']:hover{ /*изменения при наведении (hover)*/
+    background-color: burlywood;
+    /*border-radius: 7px;*/
+}
+#form-example input[type='submit']:disabled{ /*если элемент неактивен*/
+    background-color: lightgray;
+    color: gray;
+    border: 1px solid gray;
+}
+#form-example input[type='email'], #form-example input[type='password']{
+    background-color: lavender;
+    border: none;
+    border-bottom: 1px solid darkblue;
+    padding: 7px;
+}
+#form-example input[type='email']:hover, #form-example input[type='password']:hover{
+    background-color: burlywood;
+    border: none;
+    border-bottom: 1px solid darkblue;
+    padding: 7px;
+}
+#topic{
+    background-color: #eddfff;
+    border: white solid 1px;
+}
