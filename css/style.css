@@ -76,9 +76,6 @@ p{
     text-align:left;
     padding-left: 50px;
 }
-
-.page-list li:nth-child(odd){
-}
 .quoted, .quoted p{
     text-align: right;
     font-size: 1.25rem;
@@ -183,22 +180,3 @@ p{
     background-color: #eddfff;
     border: white solid 1px;
 }
-/*
-.info>a {
-    color: red;
-}
-a:link{
-    color: red;
-    text-decoration: none;
-}
-a:visited{
-    color: orange;
-}
-a:active{
-    color: blueviolet;
-}
-
-.table-example tr:nth-child(odd) td{
-    border-bottom: 1px solid yellow;
-}
-*/
